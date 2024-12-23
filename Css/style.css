@@ -149,8 +149,7 @@
     height: 300px;
     border: none;
     padding: 20px 15px;
-    transition: .4s;
-    
+    transition: .4s;   
 }
 
 .tahapan__card:hover {
@@ -211,4 +210,153 @@
 }
 
 
+#konsumen {
+    width: 100%;
+    height: 836px;
+    background-color: #EEEDDE;
+}
 
+.kon__wrapper {
+    padding-top: 70px;
+}
+
+.kon__wrapper h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FF7527;
+}
+
+.kon__wrapper h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #203239;
+    margin-top: 8px;
+}
+
+.kon__content {
+    margin-top: 65px;
+}
+
+.kon__img--2nd {
+    margin-top: 60px;
+    margin-left: -165px;
+    position: absolute;
+}
+
+.kon__text h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #203239;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.kon__text p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    width: 570px;
+}
+
+.kon__btn--1st {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #203239;
+    text-decoration: none;
+    padding: 13px 41px;
+    border: 1px solid #203239;
+    border-radius: 10px;
+    margin-right: 48px;
+}
+
+.kon__btn--1st i {
+    margin-right: 15px;
+}
+
+.kon__btn--2nd {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #203239;
+    padding: 13px 41px;
+    border-radius: 10px;
+}
+
+#auditor {
+    width: 100%;
+    height: 890px;
+}
+
+.audi_wrapper {
+    padding-top: 68px;
+}
+
+.audi_wrapper h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FF7527;
+}
+
+.audi_wrapper h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #203239;
+    margin-top: 8px;
+}
+
+.audi__contant {
+    margin-top: 64px;
+}
+
+.audi__card {
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.audi__card h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #203239;
+}
+
+.audi__card p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+    width: 356px;
+}
+
+#hubungi {
+    width: 100%;
+    height: 390px;
+    background-color: #EEEDDE;
+}
+
+.hub__wrapper {
+    padding-top: 48px;
+}
+
+.hub__wrapper h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #203239;
+}
+
+.hub__contant {
+    margin-top: 40px;
+}
