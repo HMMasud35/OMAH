@@ -118,7 +118,13 @@
     font-weight: 300;
     line-height: 24px;
     color: #203239;
-    background-color: #fff;
+    background-color: #ffffff;
+}
+
+.banner__text button:hover {
+    background-color: #8d8d8d;
+    color: #ffffff;
+    font-weight: 500;
 }
 
 #tahapan {
@@ -149,13 +155,12 @@
     height: 300px;
     border: none;
     padding: 20px 15px;
-    transition: .4s;   
+    transition: .04s;   
 }
 
 .tahapan__card:hover {
-    border: 1px solid #eeedde00;
-    box-shadow: 0px 2px 5px;
-    border-style: inset;
+    border: 1px solid #203239;
+    box-shadow: 0px 3px 3px;
 }
 
 .tahapan__card span {
@@ -274,6 +279,12 @@
     border: 1px solid #203239;
     border-radius: 10px;
     margin-right: 48px;
+    transition: .4s;
+}
+
+.kon__btn--1st:hover {
+    background-color: #203239;
+    color: #ffffff;
 }
 
 .kon__btn--1st i {
@@ -289,6 +300,13 @@
     background-color: #203239;
     padding: 13px 41px;
     border-radius: 10px;
+    transition: .4s;
+}
+
+.kon__btn--2nd:hover {
+    background-color: transparent;
+    border: 2px solid #203239;
+    color: #203239;
 }
 
 #auditor {
@@ -319,10 +337,18 @@
     margin-top: 64px;
 }
 
+.audi__contant:hover > :not(:hover) {
+    filter: grayscale(1);
+}
+
 .audi__card {
     height: 600px;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.audi__card:hover {
+    box-shadow: 5px 5px 10px;
 }
 
 .audi__card h4 {
@@ -357,6 +383,106 @@
     color: #203239;
 }
 
-.hub__contant {
+.hub__contact {
+    margin-top: 72px;
+}
+
+.hub__call {
+    width: 274px;
+    height: 167px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.hub__phone--icon {
+    font-size: 34px;
+    margin-top: 36px;
+    margin-left: 15px;
+}
+
+.hub__card--text h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #203239;
+    margin-top: 25px;
+}
+
+.hub__card--text h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #203239;
+    margin-top: 8px;
+}
+
+.hub__card--text a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: -25px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    background-color: #203239;
+}
+
+.hub__card--text a:hover {
+    background-color: #8d8d8d;
+}
+
+.hub__brand {
+    text-align: center;
+}
+
+.hub__brand h4 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #203239;
+}
+
+.hub__brand img {
     margin-top: 40px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #203239;
+}
+
+#footer {
+    width: 100%;
+    height: 104px;
+    background-color: #203239;
+}
+
+.footer_part {
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__item ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__item ul li {
+    display: inline-block;
+    margin-right: 64px;
+}
+
+.footer__item ul li a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #EEEDDE;
 }
