@@ -244,10 +244,15 @@
     margin-top: 65px;
 }
 
+.kon__img--1st {
+    box-shadow: 5px 5px 5px;
+}
+
 .kon__img--2nd {
     margin-top: 60px;
     margin-left: -165px;
     position: absolute;
+    box-shadow: -5px -5px 5px;
 }
 
 .kon__text h2 {
